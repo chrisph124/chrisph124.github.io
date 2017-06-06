@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <link rel="stylesheet" href="master.css">
+    <script src="index.js"></script>
+</head>
+
+<body id="home">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header page-scroll">
+            <a href="#home" class="navbar-brand page-scroll">Chris</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home" class="page-scroll">Home</a></li>
+                <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+                <li><a href="#about" class="page-scroll">About</a></li>
+                <li><a href="#skills" class="page-scroll">Skills</a></li>
+                <li><a href="#contact" class="page-scroll">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron" id="home">
+        <h1>Hi, I'm Chris</h1>
+        <h2>A man come from Ho Chi Minh city who can turn &#9749; into &#60;&#10744;&#62; with &#10084; and &#9000;</h2>
+        <hr class="style">
+        <!--<h3>A graphic designer, front-end developer, pet lover</h3>-->
+        <h2 class="typewrite"></h2>
+        <h3 class="center-block"><a class="page-scroll text-center more" href="#portfolio">More about me &#9660;</a></h3>
+    </div>
+    <section class="col-md-12 portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="col-md-4 pseudo-layout">
+            <img src="portfolio1.jpg" alt="" class="center-block">
+        </div>
+        <div class="col-md-4 pseudo-layout">
+            <img src="portfolio2.jpg" alt="" class="center-block">
+        </div>
+        <div class="col-md-4 pseudo-layout">
+            <img src="portfolio3.jpg" alt="" class="center-block">
+        </div>
+    </section>
+    <section class="col-md-12 about" id="about">
+        <h2>About Me</h2>
+        <img src="iron.jpg" alt="" class="img-circle center-block">
+        <div class="content center-block">
+            <hr class="hr-about">
+            <h3>
+                When the World Wide Web began, web developers either developed online content themselves, or modified existing documents
+                and coded them into hypertext markup language (HTML). In time, the field of website development came to encompass
+                many technologies, so it became difficult for website developers to maintain so many different skills. Content
+                developers are specialized website developers who have content generation skills such as graphic design,
+                multimedia development, professional writing, and documentation. They can integrate content into new or existing
+                websites without using information technology skills such as script language programming and database programming.
+            </h3>
+            <hr class="hr-about">
+        </div>
+    </section>
+    <section class="col-md-12 skills center-block" id="skills">
+        <h2>Skills</h2>
+        <div class="col-md-4">
+            <h3 class="text-center">Front-End</h3>
+            <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <span class="skill">HTML <i class="val">100%</i></span>
+                </div>
+            </div>
+
+            <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <span class="skill">CSS<i class="val">90%</i></span>
+                </div>
+            </div>
+
+            <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <span class="skill">Jquery<i class="val">75%</i></span>
+                </div>
+            </div>
+            <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                    <span class="skill">Vue.js<i class="val">90%</i></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3 class="text-center">Back-End</h3>
+            <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <span class="skill">Node.js<i class="val">75%</i></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3 class="text-center">Design</h3>
+            <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <span class="skill">Photoshop<i class="val">80%</i></span>
+                </div>
+            </div>
+            <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                    <span class="skill">Illustrator<i class="val">95%</i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact col-md-12">
+        <div class="col-md-6 text-center">
+            <h3>Contact Me!</h3>
+            <h4>Phone number: 090.9999.999</h4>
+            <h4>Email: chris.pham124@gmail.com</h4>
+        </div>
+        <div class="col-md-6 text-center">
+            <h3>
+                Or feel free to visit my social page
+            </h3>
+            <ul class="social-network social-circle">
+                <li><a href="https://facebook.com/nel.pham412" class="icoFacebook" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://linkedin.com/in/chris-pham-644a0a12b/" class="icoLinkedin" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://instagram.com/noodle.ph/" class="icoInstagram" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://github.com/chrisph124" class="icoGithub" target="_blank" title="Github"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+    <h4 class="text-center col-md-12">Designed by <a href="https://github.com/chrisph124" target="_blank">Chris Pham</a></h4>
+    </section>
+</body>
+
+</html>
